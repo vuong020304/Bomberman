@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="624.0" prefWidth="1488.0" xmlns="http://javafx.com/javafx/11.0.2"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.fxml.PlayGameController">
+    <children>
+        <Button fx:id="play" layoutX="620.0" layoutY="396.0" mnemonicParsing="false" onMouseClicked="#play"
+                style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-background-color: #66a5df;"
+                text="Play Game" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font size="24.0"/>
+            </font>
+            <effect>
+                <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+                    <bumpInput>
+                        <Shadow/>
+                    </bumpInput>
+                    <light>
+                        <Light.Distant/>
+                    </light>
+                </Lighting>
+            </effect>
+
+        </Button>
+        <Button fx:id="quit" layoutX="619.0" layoutY="532.0" mnemonicParsing="false" onMouseClicked="#quit"
+                style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-background-color: #66a5df;"
+                text="Quit Game" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font size="24.0"/>
+            </font>
+            <effect>
+                <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+                    <bumpInput>
+                        <Shadow/>
+                    </bumpInput>
+                    <light>
+                        <Light.Distant/>
+                    </light>
+                </Lighting>
+            </effect>
+
+        </Button>
+        <Button layoutX="620.0" layoutY="461.0" mnemonicParsing="false" onMouseClicked="#tutorial" prefHeight="26.0"
+                prefWidth="144.0"
+                style="-fx-background-radius: 12px; -fx-border-radius: 12px; -fx-background-color: #66a5df;"
+                text="Tutorial" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font size="24.0"/>
+            </font>
+            <effect>
+                <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+                    <bumpInput>
+                        <Shadow/>
+                    </bumpInput>
+                    <light>
+                        <Light.Distant/>
+                    </light>
+                </Lighting>
+            </effect>
+
+        </Button>
+    </children>
+</AnchorPane>

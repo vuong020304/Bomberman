@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="endGamePane" prefHeight="624.0" prefWidth="1589.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.fxml.EndGameController">
+    <children>
+        <Button fx:id="endGame" layoutX="783.0" layoutY="483.0" mnemonicParsing="false" onMouseClicked="#playAgain" prefHeight="74.0" prefWidth="248.0" style="-fx-background-radius: 18px; -fx-border-radius: 18px; -fx-background-color: red; " text="PLAY AGAIN" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font name="System Bold" size="24.0" />
+            </font>
+         <effect>
+            <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+        </Button>
+      <Button layoutX="1109.0" layoutY="483.0" mnemonicParsing="false" onMouseClicked="#Quit" prefHeight="74.0" prefWidth="248.0" style="-fx-background-radius: 18px; -fx-border-radius: 18px; -fx-background-color: red;" text="QUIT" textAlignment="CENTER" textFill="#ffffff">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+         <effect>
+            <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+    </children>
+</AnchorPane>

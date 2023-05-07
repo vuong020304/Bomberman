@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="624.0" prefWidth="1589.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uet.oop.bomberman.fxml.WinGameController">
+    <children>
+        <Button layoutX="463.0" layoutY="473.0" mnemonicParsing="false" onMouseClicked="#playagain" style="-fx-background-radius: 18px; -fx-border-radius: 18px; -fx-background-color: #348cd9; " text="Play Again" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font size="24.0" />
+            </font>
+         <effect>
+            <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+        </Button>
+        <Button layoutX="854.0" layoutY="473.0" mnemonicParsing="false" onMouseClicked="#quit" prefHeight="51.0" prefWidth="143.0" style="-fx-background-radius: 18px; -fx-border-radius: 18px; -fx-background-color: #348cd9; " text="Quit" textAlignment="CENTER" textFill="#ffffff">
+            <font>
+                <Font size="24.0" />
+            </font>
+         <effect>
+            <Lighting diffuseConstant="1.4" specularConstant="1.25" surfaceScale="2.8">
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+        </Button>
+    </children>
+</AnchorPane>
